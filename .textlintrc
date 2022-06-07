@@ -1,0 +1,25 @@
+{
+  "rules": {
+      "ja-no-orthographic-variants": true,
+      "ja-hiragana-hojodoushi": true,
+      "ja-hiragana-fukushi": true,
+      "ja-hiragana-keishikimeishi": true,
+      "ja-no-mixed-period": true,
+      "no-mixed-zenkaku-and-hankaku-alphabet": true,
+      "ja-no-abusage": true,
+      "ja-no-redundant-expression": true,
+      "no-double-negative-ja": true,
+      "no-doubled-joshi": true,
+      "no-mix-dearu-desumasu": true,
+      "max-kanji-continuous-len": true,
+      "prh": {
+        "rulePaths" : ["node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml"]
+      },
+      "max-ten": {
+        "max": 3,
+        "strict": false,
+        "touten": "、",
+        "kuten": "。"
+      }
+  }
+}
