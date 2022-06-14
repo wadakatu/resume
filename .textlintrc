@@ -11,9 +11,19 @@
       "no-double-negative-ja": true,
       "no-doubled-joshi": true,
       "no-mix-dearu-desumasu": true,
-      "max-kanji-continuous-len": true,
+      "max-kanji-continuous-len": {
+        "max": 5,
+        "allow": [
+          "京都外国語大学",
+          "職務経歴詳細",
+          "受託開発事業部",
+          "災害時必要物資管理",
+          "動的削除処理",
+          "楽天競馬自動入金"
+        ]
+      },
       "prh": {
-        "rulePaths" : ["node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml"]
+        "rulePaths" : ["./lint.yml"]
       },
       "max-ten": {
         "max": 3,
