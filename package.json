@@ -7,9 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "textlint docs/RESUME.md",
-    "fix:lint": "textlint --fix docs/RESUME.md",
-    "make:pdf": "md-to-pdf docs/RESUME.md --config-file ./pdf/config.js"
+    "lint": "textlint docs/README.md",
+    "fix:lint": "textlint --fix docs/README.md",
+    "make:pdf": "md-to-pdf docs/README.md --config-file ./pdf/config.js"
   },
   "repository": {
     "type": "git",
