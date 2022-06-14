@@ -1,6 +1,10 @@
 module.exports = {
   stylesheet: "./pdf/style.css",
   body_class: "markdown-body",
+  marked_options: {
+    headerIds: false,
+    smartypants: true,
+  },
   pdf_options: {
     format: "A4",
     margin: "30mm 20mm",
@@ -10,4 +14,5 @@ module.exports = {
     footerTemplate:
       "<section><div><span class='pageNumber'></span> / <span class='totalPages'></span></div></section>",
   },
+  stylesheet_encoding: "utf-8",
 };
