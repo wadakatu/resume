@@ -2,12 +2,13 @@
 
 ## 基本情報
 
-| key      | value                     |
-| -------- | ------------------------- |
-| 氏名     | 磯野 公耀（Koyo Isono）   |
-| 生年月日 | 1998/03/30                |
-| 居住地   | 東京都                    |
-| 最終学歴 | 京都外国語大学 外国語学部 |
+| key   | value                         |
+|-------|-------------------------------|
+| 氏名    | 磯野 公耀（Koyo Isono）             |
+| 生年月日  | 1998/03/30 (26才)              |
+| 居住地   | 大阪府                           |
+| 最終学歴  | 京都外国語大学 外国語学部 卒業              |
+| 好きなもの | HHKB (Happy Hacking Keyboard) | 
 
 ---
 
@@ -24,12 +25,19 @@
 
 ## 保有スキル
 
-- Laravel でのサーバサイド開発
-- PHPUnit を用いたユニットテスト作成
+### 開発
+- PHP/Laravel を用いたサーバサイド開発
+- PHPUnit/Pest を用いたユニットテスト作成
+- WebpackからViteへフロントエンドビルドツール移行
 - 単一責任の原則、DRY を意識したコーディング
-- Circle CI/GitLab Runner を用いた CI/CD 環境整備
-- Laravel 5 から Laravel 9 へのアップグレード
-- オンプレ版 GitLab のアップグレード
+- Circle CI/GitHub Actions を用いた CI/CD 環境整備
+- PHPバージョンアップ対応（8.1 -> 8.2）
+- Laravelバージョンアップ対応（5.6 -> 10.x）
+- 自社運用版GitLabバージョンアップ対応
+- 外部API連携機能の作成
+
+### ビジネス
+- 英語に自信あり
 
 ---
 
@@ -42,20 +50,39 @@
   <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 </p>
 
-### フレームワーク・その他
+### データベース
+
+<p>
+  <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
+</p>
+
+### フレームワーク
 
 <p>
   <img alt="Laravel" src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img alt="Vue" src="https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" />
   <img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" />
-  <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
+  <img alt="TailwindCSS" src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
+
+### その他
+
+<p>
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon&logoColor=white">
   <img alt="Nginx" src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="OpenAPI" src="https://img.shields.io/badge/openapi-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
   <img alt="Swagger" src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white">
+  <img alt="Webpack" src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" />
+  <img alt="Vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" />
+  <img alt="Yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
   <img alt="GitLab" src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img alt="GitLab CI" src="https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white">
+  <img alt="Circle CI" src="https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white" />
+  <img alt="PhpStorm" src="https://img.shields.io/badge/phpstorm-143?style=for-the-badge&logo=phpstorm&logoColor=black&color=black&labelColor=darkorchid" />
 </p>
 
 ---
@@ -72,47 +99,47 @@
 #### 2020/10 ~ 現在
 
 - **プロジェクト概要**
-  - 会員制ヘルスケアサイト
+    - 会員制ヘルスケアサイト
 - **プロジェクト規模**：
-  - 10 名弱のチームでのウォーターフォール開発
+    - 10 名弱のチームでのウォーターフォール開発
 - **プロジェクト構成**
-  - ユーザー画面
-  - 管理画面
-  - バッチ処理
-  - Web 用 API
-  - スマートフォンアプリケーション用 API
+    - ユーザー画面
+    - 管理画面
+    - バッチ処理
+    - Web 用 API
+    - スマートフォンアプリケーション用 API
 - **役割**
-  - 基本設計、詳細設計、実装、単体試験、結合試験
+    - 基本設計、詳細設計、実装、単体試験、結合試験
 - **プロジェクト詳細**:
-  - PHP/Laravel でのバックエンド開発
-  - Swagger/Prism を用いた API 定義書作成・モックサーバ構築
-    - アプリケーションベンダーへのモック API 提供を 1 週間で行い、無駄な待ち時間を削減
-  - Docker を用いた開発環境の構築・アップデート
-  - PHP/Laravel バージョンアップデート
+    - PHP/Laravel でのバックエンド開発
+    - Swagger/Prism を用いた API 定義書作成・モックサーバ構築
+        - アプリケーションベンダーへのモック API 提供を 1 週間で行い、無駄な待ち時間を削減
+    - Docker を用いた開発環境の構築・アップデート
+    - PHP/Laravel バージョンアップデート
 - **その他**
-  - GitLab バージョンアップデート
-    - GitLab を構築した前任者がすでに会社から去っていたので、1 人で公式ドキュメントなどから情報を集め
-      バージョンアップデートの手順を確立しました。その後、wiki に手順を残すことで、属人化の排除に貢献。
+    - GitLab バージョンアップデート
+        - GitLab を構築した前任者がすでに会社から去っていたので、1 人で公式ドキュメントなどから情報を集め
+          バージョンアップデートの手順を確立しました。その後、wiki に手順を残すことで、属人化の排除に貢献。
 
 #### 2020/7 ~ 2020/10
 
 外部研修後は、OJT として先輩社員の元で新規 Web アプリケーションの立ち上げを行った。
 
 - **プロジェクト概要**
-  - 災害時必要物資管理システム
+    - 災害時必要物資管理システム
 - **プロジェクト規模**：
-  - 先輩社員 2 名・新卒 4 名のチームでウォーターフォール開発
+    - 先輩社員 2 名・新卒 4 名のチームでウォーターフォール開発
 - **プロジェクト構成**
-  - ユーザー画面
-  - 管理画面
-  - バッチ処理
+    - ユーザー画面
+    - 管理画面
+    - バッチ処理
 - **役割**
-  - 詳細設計、実装、単体試験、結合試験
+    - 詳細設計、実装、単体試験、結合試験
 - **プロジェクト詳細**:
-  - PHP/Laravel でのバックエンド開発
-  - jQuery を用いた動的制御
-    - 画像をアップロードするときに動的にプレビューを出す機能を実装
-    - Ajax を用いた動的削除処理
+    - PHP/Laravel でのバックエンド開発
+    - jQuery を用いた動的制御
+        - 画像をアップロードするときに動的にプレビューを出す機能を実装
+        - Ajax を用いた動的削除処理
 
 #### 2020/4 ~ 2020/7
 
@@ -153,11 +180,11 @@
 
 ### 個人開発
 
-| Projects                                                                         | Language/Framework             | 概要                                               |
-| -------------------------------------------------------------------------------- | ------------------------------ | -------------------------------------------------- |
-| [koyolympus](https://github.com/wadakatu/Koyolympus)                             | PHP/Laravel, JavaScript/Vue.js | 趣味で撮影した写真を管理するサイト                 |
+| Projects                                                                         | Language/Framework             | 概要                            |
+|----------------------------------------------------------------------------------|--------------------------------|-------------------------------|
+| [koyolympus](https://github.com/wadakatu/Koyolympus)                             | PHP/Laravel, JavaScript/Vue.js | 趣味で撮影した写真を管理するサイト             |
 | [laravel-factory-refactor](https://github.com/wadakatu/laravel-factory-refactor) | PHP                            | factory ヘルパーを静的メソッドに変換するパッケージ |
-| [rakuten_horse](https://github.com/wadakatu/rakuten_horse)                       | Python                         | 楽天競馬自動入金ツール                             |
+| [rakuten_horse](https://github.com/wadakatu/rakuten_horse)                       | Python                         | 楽天競馬自動入金ツール                   |
 
 ##### その他
 
@@ -169,7 +196,7 @@
 ### OSS
 
 | Projects                                                                             | Pull Requests                                                                                          |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [laravel-factory-generator](https://github.com/TheDoctor0/laravel-factory-generator) | https://github.com/TheDoctor0/laravel-factory-generator/pull/11                                        |
 | [laravel.io](https://github.com/laravelio/laravel.io)                                | https://github.com/laravelio/laravel.io/pull/868                                                       |
 | [find-a-pr](https://github.com/ash-jc-allen/find-a-pr)                               | https://github.com/ash-jc-allen/find-a-pr/pull/22<br>https://github.com/ash-jc-allen/find-a-pr/pull/59 |
