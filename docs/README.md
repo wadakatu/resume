@@ -299,3 +299,10 @@ LDA開発では、外部委託で作成したシステムの内製化を行い�
 | Projects                                                                     | 内容                                                                                                               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) | 日本語翻訳の[メンテナ](https://laravel-lang.com/our-team.html#:~:text=%40masterix21-,ja,-Lang%0AActions%0AAttributes)として活動 |
+
+### PHPカンファレンス
+
+| カンファレンス名                   | 内容                                                               |
+|----------------------------|------------------------------------------------------------------|
+| PHP Conference Kansai 2024 | カンファレンス全体の[写真撮影](https://photos.app.goo.gl/4bRgDbCfBRTxmftG9)を担当 |
+| PHP Conference Kagawa 2024 | カンファレンス全体の[写真撮影](https://photos.app.goo.gl/6bPULNDnw367rzNA6)を担当 |
