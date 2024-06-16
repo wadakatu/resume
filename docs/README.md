@@ -294,25 +294,8 @@ LDA開発では、外部委託で作成したシステムの内製化を行い�
 
 ## 業務外活動
 
-### 個人開発
-
-| Projects                                                                         | Language/Framework             | 概要                            |
-|----------------------------------------------------------------------------------|--------------------------------|-------------------------------|
-| [koyolympus](https://github.com/wadakatu/Koyolympus)                             | PHP/Laravel, JavaScript/Vue.js | 趣味で撮影した写真を管理するサイト             |
-| [laravel-factory-refactor](https://github.com/wadakatu/laravel-factory-refactor) | PHP                            | factory ヘルパーを静的メソッドに変換するパッケージ |
-| [rakuten_horse](https://github.com/wadakatu/rakuten_horse)                       | Python                         | 楽天競馬自動入金ツール                   |
-
-##### その他
-
-- 自社サービスの勤隊管理システムと Slack をつなぐ bot 作成
-- Circle CI 結果通知用 SlackBot 作成
-
----
-
 ### OSS
 
-| Projects                                                                             | Pull Requests                                                                                          |
-|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [laravel-factory-generator](https://github.com/TheDoctor0/laravel-factory-generator) | https://github.com/TheDoctor0/laravel-factory-generator/pull/11                                        |
-| [laravel.io](https://github.com/laravelio/laravel.io)                                | https://github.com/laravelio/laravel.io/pull/868                                                       |
-| [find-a-pr](https://github.com/ash-jc-allen/find-a-pr)                               | https://github.com/ash-jc-allen/find-a-pr/pull/22<br>https://github.com/ash-jc-allen/find-a-pr/pull/59 |
+| Projects                                                                     | 内容                                                                                                               |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [Laravel-Lang/lang](https://github.com/Laravel-Lang/lang) | 日本語翻訳の[メンテナ](https://laravel-lang.com/our-team.html#:~:text=%40masterix21-,ja,-Lang%0AActions%0AAttributes)として活動 |
