@@ -2955,11 +2955,11 @@ rules:
     pattern:  /Webフック|\bWebHook\b/
   - expected: WebLogic
     pattern:  /\bWeb Logic\b/
-  - expected: webpack
-    pattern:  /\bwebpack\b/i
+  - expected: Webpack
+    pattern:  /\bWebpack\b/i
     specs:
-      - from: Webpack
-        to:   webpack
+      - from: webpack
+        to:   Webpack
   - expected: WebSphere
     pattern:  /\bWeb Sphere\b/
   - expected: Wi-Fi
