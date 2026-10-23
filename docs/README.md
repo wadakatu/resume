@@ -138,7 +138,7 @@
     - GitHub Actions
   - その他
     - Docker
-    - OpenAPI 3.1
+    - OpenAPI
     - OpenTelemetry
 - **プロジェクト構成**
   - 認可サーバ（OAuth 2.0 / OpenID Connect）
