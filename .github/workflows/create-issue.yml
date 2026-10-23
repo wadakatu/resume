@@ -4,12 +4,16 @@ on:
   schedule:
     - cron:  '0 0 1 */6 *'
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   build:
     name: create issue
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

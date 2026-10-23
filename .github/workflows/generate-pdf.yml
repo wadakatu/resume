@@ -4,24 +4,31 @@ on:
   push:
     tags:
     - 'v*'
+  pull_request:
+
+permissions:
+  contents: write
 
 jobs:
   create-release:
     name: "Create Release"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
-      - run: npm install
+          node-version: 24
+          cache: npm
+      - run: npm ci
       - name: generate pdf
         run: npm run make:pdf
-      - name: create release with pdf
-        id: create_release
-        uses: marvinpinto/action-automatic-releases@latest
+      - name: upload pdf
+        uses: actions/upload-artifact@v7
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
-          files: |
-            ./docs/README.pdf
+          name: resume-pdf
+          path: ./docs/README.pdf
+      - name: create release with pdf
+        if: startsWith(github.ref, 'refs/tags/')
+        run: gh release create "$GITHUB_REF_NAME" ./docs/README.pdf --generate-notes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
