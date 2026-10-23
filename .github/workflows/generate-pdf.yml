@@ -22,6 +22,8 @@ jobs:
       - run: npm ci
       - name: generate pdf
         run: npm run make:pdf
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
       - name: upload pdf
         uses: actions/upload-artifact@v7
         with:
