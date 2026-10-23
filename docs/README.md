@@ -16,7 +16,7 @@
 
 <p>
 <a href="https://github.com/wadakatu" target="_blank"><img alt="Github" src="https://img.shields.io/badge/wadakatu-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-<a href="https://twitter.com/koyolympus" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@koyolympus-%231DA1F2.svg?&style=flat-square&logo=x&logoColor=white" /></a>
+<a href="https://x.com/koyolympus" target="_blank"><img alt="X" src="https://img.shields.io/badge/@koyolympus-%23000000.svg?&style=flat-square&logo=x&logoColor=white" /></a>
 <a href="https://qiita.com/wadakatu" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/wadakatu-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
 <a href="https://zenn.dev/wadakatu" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/@wadakatu-%231DA1F2.svg?&style=flat-square&logo=zenn&logoColor=white" /></a>
 </p>
